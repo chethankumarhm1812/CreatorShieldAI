@@ -1,0 +1,13 @@
+<!-- Illustrative PCF reference only; exact syntax/components depend on Guidewire version. -->
+<PCFScreen id="ClaimInvestigation">
+  <DetailViewPanel>
+    <InputColumn>
+      <Label value="Claim Number"/>
+      <Label value="AI Recommendation"/>
+      <Label value="Coverage Decision"/>
+      <Label value="Recommended Payout"/>
+    </InputColumn>
+    <Button id="Approve" label="Approve Claim"/>
+    <Button id="RequestInfo" label="Request Information"/>
+  </DetailViewPanel>
+</PCFScreen>

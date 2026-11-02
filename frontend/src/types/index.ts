@@ -1,0 +1,3 @@
+export type User={id:number;name:string;email:string;role:string};
+export type Policy={id:number;number:string;status:string;product:string;effective:string;expiry:string;premium:number;aggregate_limit:number;deductible:number;waiting_days:number;coverages:{code:string;name:string;limit:number;daily_benefit:number}[]};
+export type Claim={id:number;number:string;status:string;claimed_amount:number;eligible_amount:number;recommended_payout:number;risk_level:string;reason:string;evidence:{type:string;file:string;status:string;notes:string}[];exposures:{coverage:string;claimed:number;eligible:number}[];assessments:{agent:string;findings:string;confidence:number;recommendation:string}[];payment?:{amount:number;status:string;reference:string}};
